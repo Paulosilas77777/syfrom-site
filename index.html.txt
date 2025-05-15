@@ -1,0 +1,238 @@
+index.html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SYFROM - Soluções em Redes e Infraestrutura</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+        .logo {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .slogan {
+            font-style: italic;
+        }
+        
+        nav {
+            background-color: #004080;
+            padding: 10px 0;
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+        
+        nav ul li {
+            margin: 0 15px;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        
+        section {
+            margin-bottom: 40px;
+            background-color: white;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        h2 {
+            color: #003366;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #003366;
+            padding-bottom: 10px;
+        }
+        
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        
+        .service {
+            background-color: #f0f8ff;
+            padding: 20px;
+            border-radius: 5px;
+            border-left: 4px solid #003366;
+        }
+        
+        .service h3 {
+            color: #004080;
+            margin-bottom: 10px;
+        }
+        
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        
+        .contact-item {
+            margin: 10px;
+        }
+        
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav ul li {
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">SYFROM</div>
+        <div class="slogan">Soluções em Intercomunicação de Redes e Infraestrutura</div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#sobre">Sobre Nós</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <section id="inicio">
+            <h2>Bem-vindo à SYFROM</h2>
+            <p>A SYFROM é especializada em soluções de intercomunicação de redes e infraestrutura de pequeno porte, oferecendo serviços personalizados para atender às necessidades específicas de cada cliente.</p>
+            <p>Nossa equipe de profissionais qualificados está pronta para ajudar sua empresa a ter uma infraestrutura de rede eficiente, segura e de alta performance.</p>
+        </section>
+        
+        <section id="servicos">
+            <h2>Nossos Serviços</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Instalação de Redes</h3>
+                    <p>Projeto e implementação de infraestrutura de redes para pequenas e médias empresas, garantindo performance e segurança.</p>
+                </div>
+                <div class="service">
+                    <h3>Manutenção de Redes</h3>
+                    <p>Serviços preventivos e corretivos para manter sua rede operando com máxima eficiência e disponibilidade.</p>
+                </div>
+                <div class="service">
+                    <h3>Sistemas de Intercomunicação</h3>
+                    <p>Implantação de soluções de comunicação interna para melhorar a produtividade e integração entre setores.</p>
+                </div>
+                <div class="service">
+                    <h3>Cabeamento Estruturado</h3>
+                    <p>Instalação profissional de infraestrutura de cabos para dados e voz, seguindo os padrões internacionais.</p>
+                </div>
+                <div class="service">
+                    <h3>Consultoria em TI</h3>
+                    <p>Análise e recomendações para melhorar a infraestrutura de TI da sua empresa, com foco em custo-benefício.</p>
+                </div>
+                <div class="service">
+                    <h3>Segurança de Redes</h3>
+                    <p>Proteção dos seus dados e sistemas contra ameaças internas e externas com soluções personalizadas.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="sobre">
+            <h2>Sobre Nós</h2>
+            <p>A SYFROM foi fundada com o objetivo de oferecer soluções de qualidade em intercomunicação de redes e infraestrutura para empresas de pequeno porte, com um atendimento personalizado e focado nas reais necessidades de cada cliente.</p>
+            <p>Nossa missão é simplificar a tecnologia para que nossos clientes possam focar no que realmente importa: seus negócios.</p>
+            <p>Com uma equipe de profissionais certificados e experientes, garantimos soluções eficientes, seguras e com o melhor custo-benefício do mercado.</p>
+        </section>
+        
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+            <p>Estamos prontos para atender suas necessidades em soluções de rede e infraestrutura. Entre em contato conosco para mais informações ou solicitar um orçamento.</p>
+            
+            <form>
+                <div style="margin-bottom: 15px;">
+                    <label for="nome" style="display: block; margin-bottom: 5px;">Nome:</label>
+                    <input type="text" id="nome" name="nome" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;">
+                </div>
+                
+                <div style="margin-bottom: 15px;">
+                    <label for="email" style="display: block; margin-bottom: 5px;">E-mail:</label>
+                    <input type="email" id="email" name="email" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;">
+                </div>
+                
+                <div style="margin-bottom: 15px;">
+                    <label for="telefone" style="display: block; margin-bottom: 5px;">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;">
+                </div>
+                
+                <div style="margin-bottom: 15px;">
+                    <label for="mensagem" style="display: block; margin-bottom: 5px;">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" style="width: 100%; padding: 8px; border: 1px solid #ddd; border-radius: 4px;"></textarea>
+                </div>
+                
+                <button type="submit" style="background-color: #003366; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">Enviar Mensagem</button>
+            </form>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2023 SYFROM - Soluções em Intercomunicação de Redes e Infraestrutura</p>
+        <div class="contact-info">
+            <div class="contact-item">
+                <strong>Telefone:</strong> (XX) XXXX-XXXX
+            </div>
+            <div class="contact-item">
+                <strong>E-mail:</strong> contato@syfrom.com.br
+            </div>
+            <div class="contact-item">
+                <strong>Endereço:</strong> Rua Exemplo, 123 - Centro - Cidade/UF
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
